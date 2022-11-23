@@ -1,0 +1,17 @@
+.main-grid-layout {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu   main   main   main   main   main';
+}
+.toolbar {
+    grid-area: header;
+}
+
+.navbar {
+    grid-area: menu;
+}
+
+.students {
+    grid-area: main;
+}
